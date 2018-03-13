@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+		<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+        <title>New Web Project</title>
+    </head>
+    <body>
+        <div id="home" data-role="page">
+        	<div data-role="header">
+        		<div data-role="navbar">
+        			<ul>
+        				<li><a href="#home" data-icon="home" >Home Page</a></li>
+        				<li><a href="#edu">Education Page</a></li>
+        				<li><a href="#act">Publication Page </a></li>
+        				<li><a href="#img">Image Gallery Page</a></li>
+        				<li><a href="#con">Contact - me</a></li>
+        			</ul>        			
+        		</div>
+        		<h1 align="center">My Home Page </h1>
+        	</div>
+        	<div role="main" >
+			<div role="main" class="ui-content">
+        			<h1> Ammad </h1>
+				<p> I'm name is Ammad Shakoor.
+				A fourth year Bachelors of Computer Science undergraduate student at Iqra University with an interest in Android App Development.	
+        		</div>
+        		
+        	</div>
+        	<div data-role="footer">
+        		If you wanna know about me more check it <a href="https://www.github.com/ammadshakoor"> :0 </a>
+        	</div>
+        </div>
+
+
+        <div id="edu" data-role="page">
+        	<div data-role="header">
+        		<div data-role="navbar">
+        			<ul>
+					<li><a href="#home" data-icon="home" >Home Page</a></li>
+        				<li><a href="#edu">Education Page</a></li>
+        				<li><a href="#act">Publication Page </a></li>
+        				<li><a href="#img">Image Gallery Page</a></li>
+        				<li><a href="#con">Contact - me</a></li>
+        			</ul>
+        		</div>
+        		<h1 align="center">My Education Page </h1>
+        	</div>
+        	<div role="main" class="ui-content">
+        		Bachelor in CS at Iqra University.
+				<br>
+			Intermidate from Bahria College Karsaz.
+				<br>
+			High School from Usman School.
+
+				<hr>
+
+			<h2> Skills </h2>
+			<ul><li>Software Developer</li><li>Android App Developer</li><li>Graphic Designer</li></ul>
+        	</div>
+        	<div data-role="footer">
+        		My Education Page Footer | -_-
+        	</div>
+        </div>
+
+
+	<div id="act" data-role="page">
+        	<div data-role="header">
+        		<div data-role="navbar">
+        			<ul>
+        				<li><a href="#home" data-icon="home" >Home Page</a></li>
+        				<li><a href="#edu">Education Page</a></li>
+        				<li><a href="#act">Publication Page </a></li>
+        				<li><a href="#img">Image Gallery Page</a></li>
+        				<li><a href="#con">Contact - me</a></li>
+        			</ul>
+        		</div>
+        		<h1 align="center">My Publication Page</h1>
+        	</div>
+        	<div role="main" class="ui-content">
+			<h2>Research ---</h2>
+        		<a href="https://www.github.com/ammadshakoor>Check my repository here..</a>
+        	</div>
+        	<div data-role="footer">
+        		My Publication Footer
+        	</div>
+        </div>
+
+
+        <div id="img" data-role="page">
+        	<div data-role="header">
+        		<div data-role="navbar">
+        			<ul>
+        				<li><a href="#home" data-icon="home" >Home Page</a></li>
+        				<li><a href="#edu">Education Page</a></li>
+        				<li><a href="#act">Publication Page </a></li>
+        				<li><a href="#img">Image Gallery Page</a></li>
+        				<li><a href="#con">Contact - me</a></li>
+        			</ul>        			
+        		</div>
+        		<h1 align="center">My Image Gallery Page</h1>
+        	</div>
+        	<div role="main" class="ui-content">
+        		<table width="100%">
+        			<tr>
+        				<td width="25%" valign="top" ><img width="128px" height="128px" src="https://www.facebook.com/photo.php?fbid=903756006471961&set=pb.100005127093320.-2207520000.1520933246.&type=3&size=2048%2C2048" /></td>
+        				<td width="25%" valign="top" ><img width="128px" height="128px" src="https://www.facebook.com/photo.php?fbid=898718946975667&set=pb.100005127093320.-2207520000.1520933246.&type=3&size=486%2C479" /></td>
+        				<td width="25%" valign="top" ><img width="128px" height="128px" src="https://www.facebook.com/photo.php?fbid=870526466461582&set=pb.100005127093320.-2207520000.1520933246.&type=3&size=1440%2C1436" /></td>
+        				<td width="25%" valign="top" ><img width="128px" height="128px" src="https://www.facebook.com/photo.php?fbid=875454632635432&set=pb.100005127093320.-2207520000.1520933246.&type=3&size=855%2C852" /></td>
+        			</tr>
+        		</table>
+        	</div>
+        	<div data-role="footer">
+        		My Image Gallery Page Footer
+        	</div>
+        </div>
+
+
+        <div id="con" data-role="page">
+        	<div data-role="header">
+        		<div data-role="navbar">
+        			<ul>
+        				<li><a href="#home" data-icon="home" >Home Page</a></li>
+        				<li><a href="#edu">Education Page</a></li>
+        				<li><a href="#act">Publication Page </a></li>
+        				<li><a href="#img">Image Gallery Page</a></li>
+        				<li><a href="#con">Contact - me</a></li>
+        			</ul>        			
+        		</div>
+        		<h1 align="center">My Contact Page </h1>
+        	</div>
+        	<div role="main" class="ui-content">
+        		<p>Email Me at : <a href="malito:iammadshakoor@outlook.com">Ammad Shakoor</a>
+        	</div>
+        	<div data-role="footer">
+        		My Contact Page Footer 
+        	</div>
+        </div>
+    </body>
+</html>
